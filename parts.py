@@ -4,11 +4,11 @@ class CPU:
         self.coreNum="4"
 
     def check(self):
-        print "Checking CPU...."
+        print ("Checking CPU....")
         return 1
 
     def getInfo(self):
-        print "CPU info:\n  Frequency: "+self.freq+"\n  Number of cores: "+self.coreNum
+        print ("CPU info:\n  Frequency: "+self.freq+"\n  Number of cores: "+self.coreNum)
 
 class Memory:
     def __init__(self):
@@ -16,11 +16,11 @@ class Memory:
         self.size="4GB"
         
     def load(self):
-        print "Loading memory..."
+        print ("Loading memory...")
         return 1
 
     def getInfo(self):
-        print "Memory info:\n  Memory Type: "+self.gen+"\n  Size: "+self.size
+        print ("Memory info:\n  Memory Type: "+self.gen+"\n  Size: "+self.size)
 
 class HardDisk:
     def __init__(self):
@@ -28,9 +28,9 @@ class HardDisk:
         self.volume="1TB"
 
     def mount(self):
-        print "Mounting disk..."
+        print ("Mounting disk...")
         return 1
 
     def getInfo(self):
-        print "Hard Disk info:\n  File System: "+self.fs+"\n  Volume: "+self.volume
+        print ("Hard Disk info:\n  File System: "+self.fs+"\n  Volume: "+self.volume)
 
